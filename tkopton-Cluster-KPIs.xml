@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdapterKinds>
+    <AdapterKind adapterKindKey="VMWARE">
+        <ResourceKind resourceKindKey="ClusterComputeResource">
+            <Metric attrkey="cpu|max_vm_cpu_contention" label="Max VM CPU Contention" unit="%" yellow="5" orange="10" red="15" link=""/>
+            <Metric attrkey="cpu|demand|max_host_workload" label="Max Host CPU Workload" unit="%" yellow="90" orange="95" red="98" link=""/>
+            <Metric attrkey="cpu|capacity_contentionPct" label="CPU Contention" unit="%" yellow="5" orange="10" red="15" link=""/>
+            <Metric attrkey="cpu|demandPct" label="CPU Demand" unit="%" yellow="90" orange="95" red="98"/>
+            <Metric attrkey="mem|workload" label="Memory Demand" unit="%" yellow="90" orange="95" red="98"/>
+            <Metric attrkey="mem|max_vm_mem_contention" label="Max VM memory Contention" unit="%" yellow="5" orange="10" red="15" link=""/>
+            <Metric attrkey="mem|host_contentionPct" label="Avg Mem Contention" unit="%" yellow="5" orange="10" red="" link="15"/>
+            <Metric attrkey="mem|demand|max_host_workload" label="Max Host Mem Workload" unit="%" yellow="90" orange="95" red="98" link=""/>
+            <Metric attrkey="mem|vmmemctl_average" label="Balloning" unit="GB" yellow="1" orange="2" red="5" link=""/>
+        </ResourceKind>
+    </AdapterKind>
+</AdapterKinds>

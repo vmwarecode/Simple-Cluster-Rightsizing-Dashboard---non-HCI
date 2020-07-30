@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AdapterKinds>
+    <AdapterKind adapterKindKey="VMWARE">
+        <ResourceKind resourceKindKey="ClusterComputeResource">
+            <Metric attrkey="configuration|drsconfig|enabled" label="test?" unit="" yellow="" orange="" red="false" link="" isProperty="true"/>
+            <Metric attrkey="configuration|dasConfig|enabled" label="HA Enabled?" unit="" yellow="" orange="" red="false" link="" isProperty="true"/>
+            <Metric attrkey="configuration|dasConfig|admissionControlEnabled" label="Admission Ctrl. Enabled?" unit="" yellow="" orange="false" red="" link="" isProperty="true"/>
+            <Metric attrkey="summary|parentVcenter" label="Parent vCenter" unit="" yellow="" orange="" red="" link="" isProperty="true"/>
+            <Metric attrkey="OnlineCapacityAnalytics|timeRemaining" label="Time Remaining" unit="" yellow="" orange="" red="" link=""/>
+            <Metric attrkey="summary|drs_unhappy_vms" label="Unhappy VMs" unit="" yellow="1" orange="2" red="5" link=""/>
+        </ResourceKind>
+    </AdapterKind>
+</AdapterKinds>
